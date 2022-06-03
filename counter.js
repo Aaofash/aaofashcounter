@@ -7,9 +7,11 @@ buttons.forEach((btn) => {
         
         if (a.contains('increase')){
             i++;
-        }else if (a.contains('decrease')){
+        }
+        else if (a.contains('decrease')){
             i--;
-        }else {
+        }
+        else {
             i = 0;
         }
         counter.textContent = i;
